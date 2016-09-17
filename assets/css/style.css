@@ -1,0 +1,18 @@
+* {
+	border: 960px;
+	content: 650px;
+}
+
+.main {
+	background-color: #4aaaa5;
+	display: block;
+	color: white;
+	position: absolute;
+	text-align: center;
+	margin-right: 100px;
+	padding: 10px;
+
+}
+.me {
+	float: left;
+	
