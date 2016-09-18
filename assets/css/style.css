@@ -1,7 +1,179 @@
-* {
-	border: 960px;
-	content: 650px;
+.header {
+    background-color: #032c52;
+    margin:0;
+    padding: 53px;
+    opacity: 0.9;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    outline-style: solid;
+    outline-color: #008282;
 }
-p #bio {
-	color: red;
+#banner {
+  	background-color: #4aaaa5;
+  	color: white;
+  	font-family: 'Georgia', Times, "Times New Roman", serif;  
+}
+h1 {
+color:#032c52;
+    font-family: Georgia;
+    font-size: 42px;
+    margin: 0px;
+    padding: 30px;
+    background-color: #bcf2ff;
+    float: left;
+    position: relative;
+    left: 125px;
+    top: -55px;
+}
+.links {
+    position: relative;
+    float: right;
+    top: -35px;
+   right: 450px;
+    font-size: 23px;
+    font-family: Georgia;
+    color: #8fc0ee;
+} 
+#about {
+    border-right: solid;
+    margin: 0 15px 0 0;
+    border-right-width: 1px;
+    
+}
+.box {
+    display: inline-block;
+    width: 900px;
+    height: 650px;
+    margin: 0px;
+    position: relative;
+    top: 60px;
+    right: 210px;
+    background-color: #e3eff2;
+    border: 2px solid #032c52;
+    border-radius: 5px;
+    float: left;
+}
+#me {
+    position: relative; 
+    left: 50px;
+    font-size: 42px;
+}
+#picture {
+    height:250px;
+    width: 250px;
+    position: relative;
+    float: left; 
+    margin: 30px 30px 0px 45px;
+}
+#bio {
+margin-top: 30px;
+font-size: 22px;
+line-height: 200%;
+margin-right: 100px;
+margin-left: 40px;
+color:#032c52;
+}
+.connect {
+    display: inline-block;
+    background-color: #e3eff2;
+    border: 2px solid #032c52;
+    border-radius: 3px;
+    width: 350px;
+    height: 250px;
+    position: relative;
+    margin-right: 350px;
+    margin-top: 50px;
+    top: -645px;
+    float:  right;
+    right: 65px;
+   
+}
+.connectText {
+text-align: center;
+font-size: 30px;
+}
+.media{
+    margin: 40px 0 0 45px;
+ }
+
+#git {
+    max-width: 75px;
+    max-height: 75px;
+    float: left;
+    margin-right: 20px;
+}
+#linked {
+    max-width: 75px;
+    max-height: 75px;
+    float: left;
+    margin-right: 20px;
+}
+
+#stack {
+	max-width: 75px;
+	max-height: 75px;
+	float: left;
+	margin-right: 20px;
+}
+
+#git:hover {
+    opacity: .8;
+}
+
+#linked:hover {
+    opacity: .8;
+}
+
+#stack {
+	opacity: .8;
+}
+#footer {
+    width:100%;
+    background-color: #666666    
+    font-color: #777777;
+    opacity: .9;
+    position: relative;
+    bottom: 0;
+   	text-align: center;
+    padding: 65px;
+    clear:both;
+    left: 0;
+    border-top: 3px solid;
+}
+body {
+    background-image: url(assets/images/geometry2.png);
+    margin:0;
+    padding:0;
+    color: #032c52;
+    height: 80%;
+    
+}
+a {
+    text-decoration: none;
+    
+}
+/* unvisited link */
+a:link {
+    color: #8fc0ee;
+}
+/* visited link */
+a:visited {
+    color: #7e9ebd;
+}
+/* mouse over link */
+a:hover {
+    color: #8fddee;
+}
+h2 {
+    font-family: Georgia;
+    color: #032c52;
+    opacity: 0.9;
+    left: 50px;
+    
+}
+p {
+    font-family: Helvetica
+}
+hr {
+    color: #032c52;
+	background-color: #032c52;
 }
