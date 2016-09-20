@@ -1,5 +1,10 @@
+h1, h2, h5 {
+	font-family: Georgia, 'Times', 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
 .header {
-    background-color: white;
+    background-color: #ffffff;
     margin:0;
     padding: 53px;
     opacity: 0.9;
@@ -7,14 +12,14 @@
     outline-style: solid;
     outline-color: #008282;
 }
+
 #banner {
-  	background-color: #4aaaa5;
-  	color: white;
-  	font-family: 'Georgia', Times, "Times New Roman", serif;  
+
+	  background-color: teal;
+	  color: white;
 }
+
 h1 {
-color:#032c52;
-    font-family: Georgia;
     font-size: 42px;
     margin: 0px;
     padding: 30px;
@@ -24,6 +29,7 @@ color:#032c52;
     left: 125px;
     top: -55px;
 }
+
 .links {
     position: relative;
     float: right;
@@ -33,12 +39,14 @@ color:#032c52;
     font-family: Georgia;
     color: gray;
 } 
+
 #about {
     border-right: solid;
     margin: 0 15px 0 0;
     border-right-width: 1px;
     
 }
+
 .box {
     display: inline-block;
     width: 900px;
@@ -52,11 +60,13 @@ color:#032c52;
     border-radius: 5px;
     float: left;
 }
+
 #me {
     position: relative; 
     left: 50px;
     font-size: 42px;
 }
+
 #picture {
     height:250px;
     width: 250px;
@@ -64,6 +74,7 @@ color:#032c52;
     float: left; 
     margin: 30px 30px 0px 45px;
 }
+
 #bio {
 margin-top: 30px;
 font-size: 22px;
@@ -71,6 +82,7 @@ line-height: 200%;
 margin-right: 100px;
 margin-left: 40px;
 color:#032c52;
+background-color: white;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
@@ -82,17 +94,30 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 350px;
     height: 250px;
     position: relative;
-    margin-right: 350px;
-    margin-top: 50px;
+    margin-right: 0px;
+    margin-top: 0px;
     top: -645px;
     float:  right;
     right: 65px;
-   
+ }
+
+#portfolio {
+	position: relative; 
+    left: 50px;
+    font-size: 42px;
 }
+
+#contact {
+	position: relative; 
+    left: 50px;
+    font-size: 42px;
+}
+
 .connectText {
 text-align: center;
-font-size: 30px;
+font-size: 12px;
 }
+
 .media{
     margin: 40px 0 0 45px;
  }
@@ -103,6 +128,7 @@ font-size: 30px;
     float: left;
     margin-right: 20px;
 }
+
 #linked {
     max-width: 75px;
     max-height: 75px;
@@ -129,7 +155,18 @@ font-size: 30px;
 	opacity: .8;
 }
 
-.hangman {
+.options {
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}   
+
+#hangman {
 	margin: 10px;
   	width: 230px;
   	height: 150px;
@@ -138,7 +175,7 @@ font-size: 30px;
   	position: relative;
 }
 
-.rpg {
+#rpg {
 	margin: 10px;
   	width: 230px;
   	height: 150px;
@@ -147,7 +184,7 @@ font-size: 30px;
   	position: relative;
 }
 
-.trivia {
+#trivia {
 	margin: 10px;
   	width: 230px;
   	height: 150px;
@@ -156,7 +193,7 @@ font-size: 30px;
   	position: relative;
 }
 
-.rutgers {
+#rutgers { 
 	margin: 10px;
   	width: 230px;
   	height: 150px;
@@ -165,13 +202,17 @@ font-size: 30px;
   	position: relative;
 }
 
-.rock {
+#rock {
 	margin: 10px;
   	width: 230px;
   	height: 150px;
   	float: left;
   	background-size: cover;
   	position: relative;
+}
+
+#table {
+	position: static;
 }
 
 h5 {
@@ -186,6 +227,7 @@ h5 {
   	background-color: #4aaaa5;
 
 }
+
 #footer {
     width:100%;
     background-color: #666666    
@@ -199,17 +241,18 @@ h5 {
     left: 0;
     border-top: 3px solid;
 }
+
 body {
-    background-image: url(assets/images/geometry2.png);
+    background-image: url("assets/images/seigaiha.png");
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     margin:0;
     padding:0;
     color: #032c52;
-    height: 80%;
-    
+    height: 80%;   
 }
+
 a {
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 /* unvisited link */
 a:link {
@@ -223,16 +266,16 @@ a:visited {
 a:hover {
     color: #8fddee;
 }
+
 h2 {
-    font-family: Georgia;
-    color: #032c52;
     opacity: 0.9;
     left: 50px;
-    
 }
+
 p {
     font-family: Helvetica
 }
+
 hr {
     color: #032c52;
 	background-color: #032c52;
