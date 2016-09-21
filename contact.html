@@ -1,74 +1,70 @@
  <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>My Portfolio</title>
-</head>
-
-<div class="header">
-	<h1 id="banner">Jeffrey Bauer</h1>
-	
-	<div class="links">
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Contact Me</title>
 		
-		<p>
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contacts</a>
-		</p>
-	</div>
-</div>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+ 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ </head>
+ <body>
+ 	<header>
+		<section class="mainHeading">
+			<h1>Jeffrey Bauer</h1>
+		</section>
 
-<body>
-	<div class="box">
+		<section class="options">
+			<ul>
+				<li><a href="ndex.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</section>
+	</header>
 
-	<h2 id="contact">Contact</h2>
-
-	<hr width="90%" size="3" noshade=>
-	</div>
-
-
-<div class="table">
-	<form>
-		Name:<br>
-		<input id="firstname" class="" name="firstname" type="text" style="width: 300px;" placeholder="John Smith" required />
-		<br>
-		Email: <br>
-		<input id="email" class="" name="email address" type="text" style="width: 300px;" placeholder="Example@gmail.com" required />
-		<br>
-		Message:<br>
-		<textarea name="message" rows="10"></textarea>
-		<br>
-		<button id="submit" type="button">Submit</button>
-	</form>
-</div>
-
-<div class="connect-header">
-		<header>
-			<div class="connectText"><h2>Connect With Me</h2>
-			<hr width="75%" size="3" noshade>
+	<div class="container">
+		<section class="mainArea">
+			<div class="altHeading">
+				<h2 class="mainAreaHeading1">Contact Me</h2>
 			</div>
-				<div class="connect-break"></div>
-		</header>
 
-	<div class="media">
+			<form id="contactArea">
+				<fieldset>
+					Name:
+					<input placeholder="John Smith" type="text" required>
+				</fieldset>
 
-		<a href="https://github.com/Jeffb3518"><img id="git" src="assets/images/git.jpg"></a>
+				<fieldset>
+					Email:
+					<input placeholder="Example@gmail.com" type="text" required>
+				</fieldset>
 
-		<a href="https://www.linkedin.com/in/jeff-bauer-cfe-607a2961?trk=nav_responsive_tab_profile">
-		<img id="linked" src="assets/images/linked.jpg"></a>
+				<fieldset>
+					Message:
+					<textarea placeholder="Message" tabindex="5" required></textarea>
+				</fieldset>
 
-		<a href="http://stackoverflow.com/users/6767847/jeff-bauer?tab=profile">
-		<img id="stack" src="assets/images/stack.jpg"></a>
+				<fieldset>
+					<button name="Submit" id="Submit" type="Submit">Submit</button>
+				</fieldset>
+			</form>
+		</section>
 	</div>
-</div>
 
-<footer>
-<div id="footer">
-		<div class="copyright">
-			© Copyright 2016 Jeffrey Bauer
+	<section class="connectMenu">
+		<div class="altHeading">
+			<h2 class="connectText">Connect With Me</h2>
 		</div>
-</div>
-</footer>
-</body>
-</html>
+
+		<a href="https://github.com/Jeffb3518"><img src="assets/images/git.jpg" class="myLinks"/></a>
+		<a href="https://www.linkedin.com/in/jeff-bauer-cfe-607a2961?trk=nav_responsive_tab_profile">
+		<img src="assets/images/linked.jpg" class="myLinks"/></a>
+		<a href="http://stackoverflow.com/users/6767847/jeff-bauer?tab=profile">
+		<img src="assets/images/stack.jpg" class="myLinks"></a>
+	</section>
+
+	<footer>
+		<p>© Copyright 2016 Jeffrey Bauer</p>
+	</footer>
+ </body>
+ </html>
