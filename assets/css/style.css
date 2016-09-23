@@ -1,22 +1,19 @@
 body {
   margin: 0;
   padding: 0;
+  color: #777777;
   background-image: url("../images/seigaiha.png");
   font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-  color: #777777;
+  
 }
 
 header {
-  background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
   padding-left: 100px;
   margin: 0;
   width: 92%;
   float: left;
-}
-
-.mainHeading, .options {
-  float: left;
+  background-color: #ffffff;
 }
 
 h1, h2 {
@@ -25,13 +22,31 @@ h1, h2 {
 }
 
 h1 {
+  color: #ffffff;
+  font-size: 1.75em;
+  background-color: #4aaaa5;
   padding: 5px;
   display: inline-block;
   padding: 20px;
   margin-bottom: 0;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  font-size: 1.75em;
+  }
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: .90em;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.mainHeading, .options {
+  float: left;
 }
 
 .altHeading {
@@ -60,23 +75,10 @@ h1 {
   font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
-p {
-  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
-  font-size: .90em;
-}
-
-li {
-  display: inline-block;
-}
-
-a {
-  text-decoration: none;
-  color: gray;
-}
-
 .container {
   width: 960px;
   padding-left: 100px;
+  
 }
 
 .mainArea, .connectMenu {
@@ -85,12 +87,12 @@ a {
 }
 
 .mainArea {
-  background-color: #ffffff;
-  border: 2px solid #dddddd;
   width: 650px;
   padding: 0 20px 20px 20px;
   margin: 20px 0 100px 0;
   line-height: 150%;
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
   text-align: justify;
 }
 
@@ -101,10 +103,6 @@ a {
   background-color: #ffffff;
   border: 2px solid #dddddd;
 
-}
-
-img {
-  max-width: 100%;
 }
 
 .myLinks {
@@ -149,7 +147,6 @@ fieldset {
 
 #contactArea button[type="submit"] {
   width:12%;
-  border:none;
   background:teal;
   color: white;
   margin:0 0 5px;
@@ -170,8 +167,8 @@ ul #mainPictures {
 
 #mainPictures li {
   float: left;
-  width: 45%;
-  margin: 2.5%;
+  width: 40%;
+  margin: 2%;
 }
 
 .hangman {
@@ -182,7 +179,7 @@ ul #mainPictures {
   position: absolute;
   background-color: #4aaaa5;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -223,7 +220,7 @@ ul #mainPictures {
 }
 
 .rock {
-  top: 890px;
+  top: 850px;
   width: 88px;
   height: 30px;
   padding: 5px 0 0 0;
@@ -245,9 +242,4 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-}
-
-#footer {
-  color: #ffffff;
-  padding-top: 23px;
 }
